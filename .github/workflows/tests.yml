@@ -1,0 +1,29 @@
+name: Run tests
+on:
+  pull_request:
+  push:
+    branches:
+    - main
+    paths-ignore:
+    - CHANGELOG.md
+    - README.md
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11']
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install poetry tox tox-gh-actions
+        poetry install
+    - name: Run tests
+      run: tox
