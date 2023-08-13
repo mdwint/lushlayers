@@ -1,8 +1,8 @@
 {
-  "title": "lushlayers-macbook-iso",
+  "title": "lushlayers-ducky-one-2-mini",
   "rules": [
     {
-      "description": "lushlayers-macbook-iso",
+      "description": "lushlayers-ducky-one-2-mini",
       "manipulators": [
         {
           "type": "basic",
@@ -12,34 +12,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
-                }
-              ]
-            },
-            {
-              "type": "variable_if",
-              "name": "layer",
-              "value": 0
-            }
-          ],
-          "from": {
-            "key_code": "non_us_backslash"
-          },
-          "to": [
-            {
-              "key_code": "escape"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "conditions": [
-            {
-              "type": "device_if",
-              "identifiers": [
-                {
-                  "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -77,7 +50,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -115,7 +88,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -142,7 +115,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -169,7 +142,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -196,7 +169,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -223,7 +196,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -250,7 +223,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -277,7 +250,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -304,7 +277,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -331,7 +304,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -358,7 +331,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -385,7 +358,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -396,7 +369,7 @@
             }
           ],
           "from": {
-            "key_code": "x"
+            "key_code": "c"
           },
           "to": [
             {
@@ -412,7 +385,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -423,7 +396,7 @@
             }
           ],
           "from": {
-            "key_code": "c"
+            "key_code": "v"
           },
           "to": [
             {
@@ -439,7 +412,142 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
+                }
+              ]
+            },
+            {
+              "type": "variable_if",
+              "name": "layer",
+              "value": "symbols"
+            }
+          ],
+          "from": {
+            "key_code": "8"
+          },
+          "to": [
+            {
+              "key_code": "rewind"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "vendor_id": 1452,
+                  "product_id": 591
+                }
+              ]
+            },
+            {
+              "type": "variable_if",
+              "name": "layer",
+              "value": "symbols"
+            }
+          ],
+          "from": {
+            "key_code": "9"
+          },
+          "to": [
+            {
+              "key_code": "play_or_pause"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "vendor_id": 1452,
+                  "product_id": 591
+                }
+              ]
+            },
+            {
+              "type": "variable_if",
+              "name": "layer",
+              "value": "symbols"
+            }
+          ],
+          "from": {
+            "key_code": "0"
+          },
+          "to": [
+            {
+              "key_code": "fastforward"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "vendor_id": 1452,
+                  "product_id": 591
+                }
+              ]
+            },
+            {
+              "type": "variable_if",
+              "name": "layer",
+              "value": "symbols"
+            }
+          ],
+          "from": {
+            "key_code": "hyphen"
+          },
+          "to": [
+            {
+              "key_code": "volume_decrement"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "vendor_id": 1452,
+                  "product_id": 591
+                }
+              ]
+            },
+            {
+              "type": "variable_if",
+              "name": "layer",
+              "value": "symbols"
+            }
+          ],
+          "from": {
+            "key_code": "equal_sign"
+          },
+          "to": [
+            {
+              "key_code": "volume_increment"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "vendor_id": 1452,
+                  "product_id": 591
                 }
               ]
             },
@@ -469,7 +577,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -499,7 +607,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -529,7 +637,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -556,7 +664,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -586,7 +694,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -613,7 +721,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -643,7 +751,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -673,7 +781,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -700,7 +808,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -730,7 +838,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },

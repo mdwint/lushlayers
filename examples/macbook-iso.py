@@ -6,7 +6,7 @@ Config(
         nav=Toggle(layer="navigation"),
         sym=Toggle(layer="symbols"),
         trm=Open(app="Alacritty"),
-        brw=Open(app="Vivaldi"),
+        www=Open(app="Vivaldi"),
         doc=Open(app="Dash"),
         mus=Open(app="Spotify"),
         cht=Open(app="Slack"),
@@ -25,7 +25,7 @@ Config(
     layers=dict(
         default=r"""
         _    _    _    _    _    _    _    _    _    _    _    _    _
-        _    _    _    _    _    _    _    _    _    _    _    _    _    _
+        esc  _    _    _    _    _    _    _    _    _    _    _    _    _
         _    _    _    _    _    _    _    _    _    _    _    _    _    _
         @nav _    _    _    _    _    _    _    _    _    _    _    _
         _    _    _    _    _    _    _    _    _    _    _    _    _    _
@@ -35,14 +35,14 @@ Config(
         _    _    _    _    _    _    _    _    _    _    _    _    _
         _    _    _    _    _    _    _    _    _    _    _    _    _    _
         _    _    @cht @eml _    _    _    _    _    _    _    _    _    _
-        _    @mus @brw @trm @doc _    left down up   rght _    _    _
+        _    @mus @www @trm @doc _    left down up   rght _    _    _
         _    _    _    @vid @cal _    _    _    _    _    _    _    _    _
         _    _    _    _              _              _    _    _    _    _
         """,
         symbols=r"""
         _    _    _    _    _    _    _    _    _    _    _    _    _
         _    _    _    _    _    _    _    _    _    _    _    _    _    _
-        _    _    _    _    _    _    _    _    _    _    _    _    _    _
+        _    _    _    _    _    ~    _    _    _    _    _    _    _    _
         _    <    {    [    (    `    "    )    ]    }    >    _    _
         _    _    _    _    _    _    _    _    _    _    _    _    _    _
         _    _    _    _              _              _    _    _    _    _
