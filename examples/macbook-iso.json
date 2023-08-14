@@ -126,6 +126,33 @@
             }
           ],
           "from": {
+            "key_code": "delete_or_backspace"
+          },
+          "to": [
+            {
+              "key_code": "delete_forward"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "vendor_id": 1452,
+                  "product_id": 835
+                }
+              ]
+            },
+            {
+              "type": "variable_if",
+              "name": "layer",
+              "value": "navigation"
+            }
+          ],
+          "from": {
             "key_code": "w"
           },
           "to": [

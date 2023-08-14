@@ -23,7 +23,7 @@ Config(
         """,
         navigation=r"""
         _    _    _    _    _    _    _    _    _    _    _    _    _
-        _    _    _    _    _    _    _    _    _    _    _    _    _    _
+        _    _    _    _    _    _    _    _    _    _    _    _    _    del
         _    _    @cht @eml _    _    home @lwd @rwd end  _    _    _    _
         _    @mus @www @trm @doc _    left down up   rght _    _    _
         _    _    _    @vid @cal _    _    _    _    _    _    _    _    _
