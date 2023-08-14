@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "lushlayers"
-version = "0.2.0"
+version = "0.3.0"
 description = "Turn your keyboard into hot lasagna."
 authors = ["Matteo De Wint <matteo@mailfence.com>"]
 packages = [{ include = "lushlayers" }]

@@ -4,7 +4,7 @@
 
 `lushlayers` is a configuration generator for [Karabiner-Elements].
 
-It generates JSON files for `~/.config/karabiner/assets/complex_modifications`.
+It generates JSON files for `~/.config/karabiner/assets/complex_modifications/`.
 
 
 ## Why?
@@ -23,8 +23,8 @@ probably get the gist from [KMonad's tutorial] and my [examples](examples/).
 ### Disclaimer
 
 This tool doesn't have nearly as many features as KMonad or Goku. I've only
-implemented the key codes and features I needed for [my own config](examples/)
-so far. Feature requests are welcome.
+implemented what I needed for [my own config](examples/) so far. Ideas and
+feature requests are welcome.
 
 [Karabiner-Elements]: https://karabiner-elements.pqrs.org
 [Goku]: https://github.com/yqrashawn/GokuRakuJoudo
