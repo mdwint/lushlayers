@@ -180,6 +180,120 @@
             }
           ],
           "from": {
+            "key_code": "y"
+          },
+          "to": [
+            {
+              "key_code": "home"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "vendor_id": 1452,
+                  "product_id": 835
+                }
+              ]
+            },
+            {
+              "type": "variable_if",
+              "name": "layer",
+              "value": "navigation"
+            }
+          ],
+          "from": {
+            "key_code": "u"
+          },
+          "to": [
+            {
+              "key_code": "left_arrow",
+              "modifiers": [
+                "left_option"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "vendor_id": 1452,
+                  "product_id": 835
+                }
+              ]
+            },
+            {
+              "type": "variable_if",
+              "name": "layer",
+              "value": "navigation"
+            }
+          ],
+          "from": {
+            "key_code": "i"
+          },
+          "to": [
+            {
+              "key_code": "right_arrow",
+              "modifiers": [
+                "left_option"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "vendor_id": 1452,
+                  "product_id": 835
+                }
+              ]
+            },
+            {
+              "type": "variable_if",
+              "name": "layer",
+              "value": "navigation"
+            }
+          ],
+          "from": {
+            "key_code": "o"
+          },
+          "to": [
+            {
+              "key_code": "end"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "vendor_id": 1452,
+                  "product_id": 835
+                }
+              ]
+            },
+            {
+              "type": "variable_if",
+              "name": "layer",
+              "value": "navigation"
+            }
+          ],
+          "from": {
             "key_code": "a"
           },
           "to": [

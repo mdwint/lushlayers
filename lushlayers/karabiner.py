@@ -2,7 +2,7 @@ from typing import Annotated, Literal
 
 from pydantic import BaseModel, Field
 
-from .config import Config, Device, Open, Shell, Toggle
+from .config import Combo, Config, Device, Open, Shell, Toggle
 from .keys import KeyCode, KeyLayout, ModifiedKey
 
 
@@ -86,7 +86,18 @@ def render_config(
                 manip = Manipulator(
                     conditions=[if_device, if_layer],
                     from_=KeyFrom(key_code=key_from.code),
-                    to=[KeyTo(key_code=key_to.code, modifiers=[m.name for m in mods])],
+                    to=[KeyTo(key_code=key_to.code, modifiers=[m.code for m in mods])],
+                )
+            elif isinstance(key_to, Combo):
+                manip = Manipulator(
+                    conditions=[if_device, if_layer],
+                    from_=KeyFrom(key_code=key_from.code),
+                    to=[
+                        KeyTo(
+                            key_code=key_to.key.code,
+                            modifiers=[m.code for m in key_to.modifiers],
+                        )
+                    ],
                 )
             elif isinstance(key_to, Shell):
                 manip = Manipulator(

@@ -1,19 +1,9 @@
-from lushlayers.config import Config, Device, Open, Toggle
+import shared
+from lushlayers.config import Config, Device
 
 Config(
     device=Device(vendor_id=1452, product_id=835),
-    aliases=dict(
-        nav=Toggle(layer="navigation"),
-        sym=Toggle(layer="symbols"),
-        trm=Open(app="Alacritty"),
-        www=Open(app="Vivaldi"),
-        doc=Open(app="Dash"),
-        mus=Open(app="Spotify"),
-        cht=Open(app="Slack"),
-        eml=Open(app="Mail"),
-        cal=Open(app="Calendar"),
-        vid=Open(app="zoom.us"),
-    ),
+    aliases=shared.aliases,
     physical_layout=r"""
         esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12
         nubs 1    2    3    4    5    6    7    8    9    0    -    =    bspc
@@ -34,7 +24,7 @@ Config(
         navigation=r"""
         _    _    _    _    _    _    _    _    _    _    _    _    _
         _    _    _    _    _    _    _    _    _    _    _    _    _    _
-        _    _    @cht @eml _    _    _    _    _    _    _    _    _    _
+        _    _    @cht @eml _    _    home @lwd @rwd end  _    _    _    _
         _    @mus @www @trm @doc _    left down up   rght _    _    _
         _    _    _    @vid @cal _    _    _    _    _    _    _    _    _
         _    _    _    _              _              _    _    _    _    _

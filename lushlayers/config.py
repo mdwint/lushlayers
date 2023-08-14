@@ -1,11 +1,11 @@
 import inspect
 import shlex
 from pathlib import Path
-from typing import Any
+from typing import Any, Self
 
 from pydantic import BaseModel, Field
 
-from .keys import Alias
+from .keys import Alias, KeyCode
 from .parser import parse_key_layout
 
 
@@ -27,6 +27,16 @@ class Open(Alias):
 
 class Toggle(Alias):
     layer: str
+
+
+class Combo(Alias):
+    key: KeyCode
+    modifiers: list[KeyCode]
+
+    @classmethod
+    def of(cls, descr: str) -> Self:
+        *mods, key = (KeyCode(token) for token in descr.split())
+        return cls(key=key, modifiers=mods)
 
 
 class Config(BaseModel):

@@ -175,7 +175,7 @@ class ModifiedKey(Enum):
     asterisk = "*"
     open_paren = "("
     close_paren = ")"
-    underscore = "_"
+    underscore = "\\_"
     plus_sign = "+"
     open_curly = "{"
     close_curly = "}"
