@@ -13,4 +13,6 @@ aliases = dict(
     vid=Open(app="zoom.us"),
     lwd=Combo.of("lopt left"),  # Move word left
     rwd=Combo.of("lopt rght"),  # Move word right
+    wpd=Combo.of("lopt lcmd c"),  # Enter warpd normal mode
+    wph=Combo.of("lopt lcmd x"),  # Enter warpd hint mode
 )
