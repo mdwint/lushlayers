@@ -151,7 +151,7 @@ class KeyCode(Enum):
     keypad_comma = "kp,"
 
     # Virtual keys
-    vk_none = "none"
+    vk_none = "XX"
 
     # Keys in PC keyboards
     print_screen = "prnt"
