@@ -1,0 +1,172 @@
+{
+  "title": "lushlayers-ferris-sweep",
+  "rules": [
+    {
+      "description": "lushlayers-ferris-sweep",
+      "manipulators": [
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "vendor_id": 7504,
+                  "product_id": 24926
+                }
+              ]
+            },
+            {
+              "type": "variable_if",
+              "name": "layer",
+              "value": 0
+            }
+          ],
+          "from": {
+            "key_code": "f19"
+          },
+          "to": [
+            {
+              "shell_command": "open -a Calendar"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "vendor_id": 7504,
+                  "product_id": 24926
+                }
+              ]
+            },
+            {
+              "type": "variable_if",
+              "name": "layer",
+              "value": 0
+            }
+          ],
+          "from": {
+            "key_code": "f20"
+          },
+          "to": [
+            {
+              "shell_command": "open -a Mail"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "vendor_id": 7504,
+                  "product_id": 24926
+                }
+              ]
+            },
+            {
+              "type": "variable_if",
+              "name": "layer",
+              "value": 0
+            }
+          ],
+          "from": {
+            "key_code": "f21"
+          },
+          "to": [
+            {
+              "shell_command": "open -a Spotify"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "vendor_id": 7504,
+                  "product_id": 24926
+                }
+              ]
+            },
+            {
+              "type": "variable_if",
+              "name": "layer",
+              "value": 0
+            }
+          ],
+          "from": {
+            "key_code": "f22"
+          },
+          "to": [
+            {
+              "shell_command": "open -a Slack"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "vendor_id": 7504,
+                  "product_id": 24926
+                }
+              ]
+            },
+            {
+              "type": "variable_if",
+              "name": "layer",
+              "value": 0
+            }
+          ],
+          "from": {
+            "key_code": "f23"
+          },
+          "to": [
+            {
+              "shell_command": "open -a Vivaldi"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "vendor_id": 7504,
+                  "product_id": 24926
+                }
+              ]
+            },
+            {
+              "type": "variable_if",
+              "name": "layer",
+              "value": 0
+            }
+          ],
+          "from": {
+            "key_code": "f24"
+          },
+          "to": [
+            {
+              "shell_command": "open -a Alacritty"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
