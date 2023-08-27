@@ -2,7 +2,7 @@ import shared
 from lushlayers.config import Config, Device
 
 Config(
-    device=Device(vendor_id=1452, product_id=591),
+    device=Device(vendor_id=1046, product_id=291),
     aliases=shared.aliases,
     physical_layout=r"""
         esc  1    2    3    4    5    6    7    8    9    0    -    =    bspc
