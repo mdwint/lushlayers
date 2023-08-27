@@ -15,3 +15,9 @@ test:
 	poetry run coverage run -m pytest --failed-first -vv
 	poetry run coverage report
 	poetry run coverage html
+
+examples/%.json: examples/%.py
+	poetry run lushlayers $<
+
+SRCS=$(filter-out examples/shared.py, $(wildcard examples/*.py))
+examples: $(SRCS:.py=.json)
