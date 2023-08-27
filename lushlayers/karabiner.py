@@ -45,6 +45,7 @@ class Manipulator(BaseModel):
     from_: KeyFrom = Field(serialization_alias="from")
     to: list[KeyTo]
     to_after_key_up: list[KeyTo] | None = None
+    to_if_alone: list[KeyTo] | None = None
 
 
 class Rule(BaseModel):
@@ -112,8 +113,11 @@ def render_config(
                     conditions=[if_device, if_layer],
                     from_=KeyFrom(key_code=key_from.code),
                     to=[KeyTo(set_variable=on)],
-                    to_after_key_up=[KeyTo(set_variable=off)],
                 )
+                if key_to.hold:
+                    manip.to_after_key_up = [KeyTo(set_variable=off)]
+                    alone = KeyCode(key_to.alone) if key_to.alone else key_from
+                    manip.to_if_alone = [KeyTo(key_code=alone.code)]
             else:
                 print(f"WARNING: Not implemented: {key_to}")
                 continue

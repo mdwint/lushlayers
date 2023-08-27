@@ -3,7 +3,7 @@ import shlex
 from pathlib import Path
 from typing import Any, Self
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, model_validator
 
 from .keys import Alias, KeyCode
 from .parser import parse_key_layout
@@ -27,6 +27,14 @@ class Open(Alias):
 
 class Toggle(Alias):
     layer: str
+    hold: bool = True
+    alone: str | None = None
+
+    @model_validator(mode="after")
+    def check(self) -> Self:
+        if self.alone and not self.hold:
+            raise ValueError("'alone' implies 'hold'")
+        return self
 
 
 class Combo(Alias):

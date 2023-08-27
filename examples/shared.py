@@ -1,7 +1,7 @@
 from lushlayers.config import Combo, Open, Toggle
 
 aliases = dict(
-    nav=Toggle(layer="navigation"),
+    nav=Toggle(layer="navigation", alone="bspc"),
     sym=Toggle(layer="symbols"),
     trm=Open(app="Alacritty"),
     www=Open(app="Vivaldi"),

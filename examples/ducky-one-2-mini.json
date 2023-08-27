@@ -40,6 +40,11 @@
                 "value": 0
               }
             }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "delete_or_backspace"
+            }
           ]
         },
         {
@@ -77,6 +82,11 @@
                 "name": "layer",
                 "value": 0
               }
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "right_command"
             }
           ]
         },
