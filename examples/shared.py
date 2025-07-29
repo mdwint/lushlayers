@@ -4,7 +4,7 @@ aliases = dict(
     nav=Toggle(layer="navigation", alone="bspc"),
     sym=Toggle(layer="symbols"),
     trm=Open(app="Alacritty"),
-    www=Open(app="Vivaldi"),
+    www=Open(app="Firefox"),
     doc=Open(app="Dash"),
     mus=Open(app="Spotify"),
     cht=Open(app="Slack"),

@@ -12,7 +12,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -39,7 +39,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -82,7 +82,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -125,7 +125,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -152,7 +152,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -179,7 +179,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -206,7 +206,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -233,7 +233,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -263,7 +263,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -293,7 +293,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -320,7 +320,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -347,7 +347,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -362,7 +362,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Vivaldi"
+              "shell_command": "open -a Firefox"
             }
           ]
         },
@@ -374,7 +374,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -401,7 +401,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -428,7 +428,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -455,7 +455,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -482,7 +482,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -509,7 +509,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -536,7 +536,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -563,7 +563,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -590,7 +590,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -620,7 +620,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -650,7 +650,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -680,7 +680,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -707,7 +707,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -737,7 +737,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -764,7 +764,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -794,7 +794,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -824,7 +824,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -851,7 +851,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
@@ -881,7 +881,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1452,
-                  "product_id": 835
+                  "product_id": 591
                 }
               ]
             },
